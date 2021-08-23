@@ -43,7 +43,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
     if (score === 0) {
       displayMessage('🤷‍♂️ You Lost the game!');
-      score = 20;
+      score = 5;
       alert('Game Over');
     } else if (guess > secretNumber) {
       displayMessage('To High!  📉 ');
